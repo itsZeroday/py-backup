@@ -20,8 +20,8 @@ def create_archive(source_dir, destination_dir):
     return archive_name
 
 # Replace these paths with your source and destination directories
-source_directory = 'E:\Quickbooks Files'
-destination_directory = r'\\casaos.local\\TheBookladyNE'
+source_directory = 'C:\SourceDirectory'
+destination_directory = r'\\networkLocation\\targetLocation' # This can be a network location, or another directory
 
 backup_file = create_archive(source_directory, destination_directory)
 if backup_file:
